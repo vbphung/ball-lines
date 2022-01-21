@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf6fdbdf14177744bdd3ef710172614, type: 3}
+  m_Name: Industry
+  m_EditorClassIdentifier: 
+  <Row>k__BackingField: 7
+  <Column>k__BackingField: 9
+  <LevelTimeByMinute>k__BackingField: 5
+  <BackgroundTexture>k__BackingField: {fileID: 2800000, guid: dcb8c3175ac26924e9f76574eb11b051, type: 3}
+  spawnBallRate: 0.4
+  normalBalls:
+  - {fileID: 11400000, guid: aacaad0b26062594ea3bf93942880cae, type: 2}
+  - {fileID: 11400000, guid: d8c74b4f1ff6a804195ff384f3d70bcf, type: 2}
+  - {fileID: 11400000, guid: a51e25c048d8ceb428be9e2fa20b57cb, type: 2}
+  specialBalls:
+  - {fileID: 11400000, guid: 3f71222202aa87447878569472724101, type: 2}
+  - {fileID: 11400000, guid: 851055f8c6488da4fbd098591cb5cb7b, type: 2}
+  <BallExplodeEffect>k__BackingField: {fileID: 7858856193962878981, guid: 74a53c84dbf210d4cb253305770a518c, type: 3}

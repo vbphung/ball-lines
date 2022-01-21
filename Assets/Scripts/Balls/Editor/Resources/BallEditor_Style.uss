@@ -1,0 +1,53 @@
+TemplateContainer
+{
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.header
+{
+    -unity-font-style: bold;
+    font-size: 20px;
+}
+
+#ball-list-view
+{
+    flex-grow: 1;
+    flex-direction: column;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+#ball-list
+{
+    flex-grow: 1;
+    margin: 5px;
+}
+
+TextField
+{
+    max-width: 1000px;
+}
+
+#ball-create-button
+{
+    max-width: 1000px;
+}
+
+#ball-info
+{
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ball-properties
+{
+    width: 100%;
+}
+
+#ball-remove-button
+{
+    max-width: 300px;
+    min-width: 150px;
+}

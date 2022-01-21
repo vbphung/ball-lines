@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf6fdbdf14177744bdd3ef710172614, type: 3}
+  m_Name: City
+  m_EditorClassIdentifier: 
+  <Row>k__BackingField: 10
+  <Column>k__BackingField: 10
+  <LevelTimeByMinute>k__BackingField: 7
+  <BackgroundTexture>k__BackingField: {fileID: 2800000, guid: df4422f1d7bcb23459093eb4282337ad, type: 3}
+  spawnBallRate: 0.4
+  normalBalls:
+  - {fileID: 11400000, guid: aacaad0b26062594ea3bf93942880cae, type: 2}
+  - {fileID: 11400000, guid: 62c1246f2da01cc4ea2462c81ff9ea4a, type: 2}
+  - {fileID: 11400000, guid: 688f861fff19402498be46f625dda946, type: 2}
+  specialBalls:
+  - {fileID: 11400000, guid: 851055f8c6488da4fbd098591cb5cb7b, type: 2}
+  - {fileID: 11400000, guid: f992a6c17791c4c4f99d1001a54752d7, type: 2}
+  <BallExplodeEffect>k__BackingField: {fileID: 7858856193962878981, guid: 74a53c84dbf210d4cb253305770a518c, type: 3}

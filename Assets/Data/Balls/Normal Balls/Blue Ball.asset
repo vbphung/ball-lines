@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7219b9afa6d70845a7b03eaffc07c59, type: 3}
+  m_Name: Blue Ball
+  m_EditorClassIdentifier: 
+  <Avatar>k__BackingField: {fileID: -3919779002189068522, guid: 0cb1b7535b35084428718c9db060a6bb, type: 3}
+  <Category>k__BackingField: 4
+  <ExplodeColor>k__BackingField: {r: 0.13798502, g: 0.31164312, b: 0.7169812, a: 1}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="level-list-view">
+        <engine:ListView name="level-list"/>
+        <engine:TextField name="new-level-name"/>
+        <engine:Button name="level-create-button"/>
+    </engine:VisualElement>
+    <engine:Box name="level-info">
+        <engine:Image name="level-background"/>
+        <engine:ScrollView name="level-properties"/>
+        <engine:Button name="level-remove-button"/>
+    </engine:Box>
+</UXML>
